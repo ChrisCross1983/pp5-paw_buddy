@@ -17,6 +17,7 @@ const RegisterPage = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    console.log('Sending data:', formData);
     try {
       const response = await axios.post('http://localhost:8000/dj-rest-auth/registration/', formData);
       console.log('Registration successful:', response.data);
