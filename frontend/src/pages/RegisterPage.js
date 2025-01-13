@@ -1,14 +1,19 @@
 import React, { useState } from 'react';
 import FormInput from '../components/FormInput';
 import axios from 'axios';
+import { useNavigate } from 'react-router-dom';
 
 const RegisterPage = () => {
+  console.log("RegisterPage loaded"); // Debugging
   const [formData, setFormData] = useState({
     username: '',
     email: '',
     password1: '',
     password2: '',
   });
+
+  const [error, setError] = useState(null);
+  const navigate = useNavigate();
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -17,18 +22,24 @@ const RegisterPage = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log('Sending data:', formData);
+    setError(null);
     try {
       const response = await axios.post('http://localhost:8000/dj-rest-auth/registration/', formData);
       console.log('Registration successful:', response.data);
+      navigate('/verification-sent');
     } catch (error) {
       console.error('Registration error:', error.response?.data || error.message);
+      setError(
+        error.response?.data?.detail ||
+        'An error occurred during registration. Please check your details and try again.'
+      );
     }
   };
 
   return (
     <div className="register-page">
       <h1>Register</h1>
+      {error && <p className="error-message">{error}</p>}
       <form onSubmit={handleSubmit}>
         <FormInput
           label="Username"

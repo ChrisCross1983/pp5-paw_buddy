@@ -1,0 +1,400 @@
+Watching for file changes with StatReloader
+C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\backend\project\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\backend\project\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\backend\config\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\backend\project\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\backend\config\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\backend\project\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\backend\project\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\backend\project\views.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /dj-rest-auth/registration/account-confirm-email/<key>/
+Bad Request: /dj-rest-auth/registration/account-confirm-email/<key>/
+Watching for file changes with StatReloader
+Disabling user: test
+Internal Server Error: /dj-rest-auth/registration/account-confirm-email/NA:1tXGBw:lI-VzhrdeUMkGqA7rnjnEhnngam_ZVp-TQyj3QN-_rA/
+Traceback (most recent call last):
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\django\views\generic\base.py", line 227, in get
+    return self.render_to_response(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\django\views\generic\base.py", line 200, in render_to_response
+    template=self.get_template_names(),
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\django\views\generic\base.py", line 212, in get_template_names
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: TemplateResponseMixin requires either a definition of 'template_name' or an implementation of 'get_template_names()'
+C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\backend\config\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\backend\config\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\backend\config\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\backend\project\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Bad Request: /dj-rest-auth/registration/account-confirm-email/<key>/
+Disabling user: test
+Internal Server Error: /dj-rest-auth/registration/account-confirm-email/NQ:1tXGPw:FGc29rgdrpuSHqQsZroQuFnIRbq6QfODoQeo7K0m7Ns/
+Traceback (most recent call last):
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\django\views\generic\base.py", line 227, in get
+    return self.render_to_response(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\django\views\generic\base.py", line 200, in render_to_response
+    template=self.get_template_names(),
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\django\views\generic\base.py", line 212, in get_template_names
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: TemplateResponseMixin requires either a definition of 'template_name' or an implementation of 'get_template_names()'
+C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\backend\project\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\backend\config\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\backend\config\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\backend\config\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\backend\config\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Disabling user: test
+Internal Server Error: /dj-rest-auth/registration/account-confirm-email/Ng:1tXGaD:rF04UgiAx9GKSos0gpAoal1LCOio0JJQdbJX1H62g-A/
+Traceback (most recent call last):
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\django\views\generic\base.py", line 227, in get
+    return self.render_to_response(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\django\views\generic\base.py", line 200, in render_to_response
+    template=self.get_template_names(),
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\django\views\generic\base.py", line 212, in get_template_names
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: TemplateResponseMixin requires either a definition of 'template_name' or an implementation of 'get_template_names()'
+C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\backend\project\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\backend\project\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\backend\project\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\backend\project\signals.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\backend\project\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\backend\project\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\backend\project\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /dj-rest-auth/registration/
+Traceback (most recent call last):
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\django\views\decorators\debug.py", line 143, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\dj_rest_auth\registration\views.py", line 47, in dispatch
+    return super().dispatch(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\rest_framework\generics.py", line 194, in post
+    return self.create(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\dj_rest_auth\registration\views.py", line 68, in create
+    user = self.perform_create(serializer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\dj_rest_auth\registration\views.py", line 84, in perform_create
+    user = serializer.save(self.request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\dj_rest_auth\registration\serializers.py", line 279, in save
+    setup_user_email(request, user, [])
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\allauth\account\utils.py", line 254, in setup_user_email
+    assert not EmailAddress.objects.filter(user=user).exists()  # nosec
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+Internal Server Error: /dj-rest-auth/registration/
+Traceback (most recent call last):
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\django\views\decorators\debug.py", line 143, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\dj_rest_auth\registration\views.py", line 47, in dispatch
+    return super().dispatch(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\rest_framework\generics.py", line 194, in post
+    return self.create(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\dj_rest_auth\registration\views.py", line 68, in create
+    user = self.perform_create(serializer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\dj_rest_auth\registration\views.py", line 84, in perform_create
+    user = serializer.save(self.request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\dj_rest_auth\registration\serializers.py", line 279, in save
+    setup_user_email(request, user, [])
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\allauth\account\utils.py", line 254, in setup_user_email
+    assert not EmailAddress.objects.filter(user=user).exists()  # nosec
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+Internal Server Error: /dj-rest-auth/registration/
+Traceback (most recent call last):
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\django\views\decorators\debug.py", line 143, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\dj_rest_auth\registration\views.py", line 47, in dispatch
+    return super().dispatch(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\rest_framework\generics.py", line 194, in post
+    return self.create(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\dj_rest_auth\registration\views.py", line 68, in create
+    user = self.perform_create(serializer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\dj_rest_auth\registration\views.py", line 84, in perform_create
+    user = serializer.save(self.request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\dj_rest_auth\registration\serializers.py", line 279, in save
+    setup_user_email(request, user, [])
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\allauth\account\utils.py", line 254, in setup_user_email
+    assert not EmailAddress.objects.filter(user=user).exists()  # nosec
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+Bad Request: /dj-rest-auth/registration/
+Internal Server Error: /dj-rest-auth/registration/
+Traceback (most recent call last):
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\django\views\decorators\debug.py", line 143, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\dj_rest_auth\registration\views.py", line 47, in dispatch
+    return super().dispatch(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\rest_framework\generics.py", line 194, in post
+    return self.create(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\dj_rest_auth\registration\views.py", line 68, in create
+    user = self.perform_create(serializer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\dj_rest_auth\registration\views.py", line 84, in perform_create
+    user = serializer.save(self.request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\dj_rest_auth\registration\serializers.py", line 279, in save
+    setup_user_email(request, user, [])
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\allauth\account\utils.py", line 254, in setup_user_email
+    assert not EmailAddress.objects.filter(user=user).exists()  # nosec
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\backend\project\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /dj-rest-auth/registration/
+Traceback (most recent call last):
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\django\views\decorators\debug.py", line 143, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\dj_rest_auth\registration\views.py", line 47, in dispatch
+    return super().dispatch(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\rest_framework\generics.py", line 194, in post
+    return self.create(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\dj_rest_auth\registration\views.py", line 68, in create
+    user = self.perform_create(serializer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\dj_rest_auth\registration\views.py", line 84, in perform_create
+    user = serializer.save(self.request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\dj_rest_auth\registration\serializers.py", line 279, in save
+    setup_user_email(request, user, [])
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\allauth\account\utils.py", line 254, in setup_user_email
+    assert not EmailAddress.objects.filter(user=user).exists()  # nosec
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\backend\project\signals.py changed, reloading.
+Watching for file changes with StatReloader
+Disabling user: test
+Internal Server Error: /dj-rest-auth/registration/account-confirm-email/MTM:1tXHGG:EttA9jgEMXmN6aWTVgJ2qHhdreWlKCGJXdn0zzi0zog/
+Traceback (most recent call last):
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\django\views\generic\base.py", line 227, in get
+    return self.render_to_response(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\django\views\generic\base.py", line 200, in render_to_response
+    template=self.get_template_names(),
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\django\views\generic\base.py", line 212, in get_template_names
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: TemplateResponseMixin requires either a definition of 'template_name' or an implementation of 'get_template_names()'

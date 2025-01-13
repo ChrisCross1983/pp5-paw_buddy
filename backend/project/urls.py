@@ -15,19 +15,9 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 
-from django.contrib import admin
-from django.urls import path, include
-from django.http import HttpResponse
-from allauth.account.views import ConfirmEmailView
+from django.urls import path
+from . import views
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('', include('frontend.urls')),
-    path('accounts/', include('allauth.urls')),
-    path('dj-rest-auth/registration/account-confirm-email/<key>/', 
-         ConfirmEmailView.as_view(), 
-         name='account_confirm_email'),
-    path('dj-rest-auth/', include('dj_rest_auth.urls')),
-    path('dj-rest-auth/registration/', include('dj_rest_auth.registration.urls')),
-    path('', lambda request: HttpResponse('<h1>Welcome to Paw Buddy!</h1>')),
+    path('index/', views.index, name='index'),
 ]
