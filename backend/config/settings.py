@@ -29,6 +29,8 @@ DEBUG = True
 ALLOWED_HOSTS = ['localhost', '127.0.0.1']
 ROOT_URLCONF = 'config.urls'
 
+AUTH_USER_MODEL = 'project.CustomUser'
+
 # Application definition
 
 INSTALLED_APPS = [
@@ -79,11 +81,6 @@ TEMPLATES = [
     },
 ]
 
-print("DEBUG: TEMPLATES Einstellung:", TEMPLATES)
-
-print(BASE_DIR / 'backend/templates/account/email_confirmed.html')
-print(os.path.exists(BASE_DIR / 'backend/templates/account/email_confirmed.html'))
-
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (
         'rest_framework.authentication.TokenAuthentication',
@@ -100,6 +97,7 @@ AUTHENTICATION_BACKENDS = [
 
 REST_AUTH_REGISTER_SERIALIZERS = {
     'REGISTER_SERIALIZER': 'project.serializers.CustomRegisterSerializer',
+    'USER_DETAILS_SERIALIZER': 'project.serializers.UserSerializer',
 }
 
 SITE_ID = 1

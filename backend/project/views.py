@@ -1,13 +1,9 @@
 from allauth.account.views import ConfirmEmailView
 from dj_rest_auth.registration.views import RegisterView
 from project.serializers import CustomRegisterSerializer
-from allauth.account.models import EmailConfirmation, EmailAddress
-from django.views.generic.base import TemplateResponseMixin
 from django.http import JsonResponse, HttpResponse
-from django.template.response import TemplateResponse
-from django.views.generic import TemplateView
 from django.shortcuts import render
-from django.contrib.sites.models import Site
+from django.shortcuts import redirect
 
 import logging
 logger = logging.getLogger(__name__)
@@ -49,3 +45,8 @@ def account_inactive_view(request):
 
 def index(request):
     return render(request, 'index.html')
+
+# Backend redirection
+
+def redirect_to_frontend_login(request):
+    return redirect("http://localhost:3000/login")

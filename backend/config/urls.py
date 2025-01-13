@@ -1,6 +1,6 @@
 from django.contrib import admin
 from django.urls import path, include
-from project.views import CustomRegisterView, CustomConfirmEmailView, account_inactive_view
+from project.views import CustomRegisterView, CustomConfirmEmailView, account_inactive_view, redirect_to_frontend_login
 
 urlpatterns = [
     path('dj-rest-auth/registration/', CustomRegisterView.as_view(), name='custom_register'),
@@ -9,6 +9,7 @@ urlpatterns = [
         CustomConfirmEmailView.as_view(),
         name='account_confirm_email',
     ),
+    path('login/', redirect_to_frontend_login, name='redirect_login'),
     path('dj-rest-auth/', include('dj_rest_auth.urls')),
     path('dj-rest-auth/registration/', include('dj_rest_auth.registration.urls')),
     path('account-inactive/', account_inactive_view, name='account_inactive'),
