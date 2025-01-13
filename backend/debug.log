@@ -398,3 +398,47 @@ Traceback (most recent call last):
   File "C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\.venv\Lib\site-packages\django\views\generic\base.py", line 212, in get_template_names
     raise ImproperlyConfigured(
 django.core.exceptions.ImproperlyConfigured: TemplateResponseMixin requires either a definition of 'template_name' or an implementation of 'get_template_names()'
+C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\backend\config\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\backend\config\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\backend\project\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\backend\config\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /dj-rest-auth/registration/
+Bad Request: /dj-rest-auth/registration/
+Bad Request: /dj-rest-auth/registration/
+C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\backend\project\views.py changed, reloading.
+Watching for file changes with StatReloader
+Method Not Allowed: /dj-rest-auth/registration/
+Disabling user: test
+C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\backend\project\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\backend\config\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\backend\config\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Disabling user: test
+Disabling user: test
+Disabling user: test
+C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\backend\project\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Disabling user: test
+C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\backend\config\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Disabling user: test
+Disabling user: test
+C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\backend\config\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Disabling user: Test
+C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\backend\project\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\backend\project\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\backend\config\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Ramon\OneDrive\Dokumente\GitHub\pp5-paw_buddy\backend\config\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Disabling user: test

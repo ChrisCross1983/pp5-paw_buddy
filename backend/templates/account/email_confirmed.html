@@ -1,10 +1,35 @@
-<!-- account/email_confirmed.html -->
 <!DOCTYPE html>
-<html>
+<html lang="de">
 <head>
-    <title>Email Confirmation</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email-Bestätigung</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #4CAF50;
+        }
+        p {
+            font-size: 1.1em;
+        }
+    </style>
 </head>
 <body>
-    <h1>{{ message }}</h1>
+    <div class="container">
+        <h1>Email-Bestätigung</h1>
+        <p>{{ message }}</p>
+    </div>
 </body>
 </html>

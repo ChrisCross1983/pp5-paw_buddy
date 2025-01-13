@@ -98,6 +98,10 @@ AUTHENTICATION_BACKENDS = [
     'allauth.account.auth_backends.AuthenticationBackend',
 ]
 
+REST_AUTH_REGISTER_SERIALIZERS = {
+    'REGISTER_SERIALIZER': 'project.serializers.CustomRegisterSerializer',
+}
+
 SITE_ID = 1
 
 WSGI_APPLICATION = 'config.wsgi.application'

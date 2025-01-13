@@ -8,6 +8,8 @@ const RegisterPage = () => {
   const [formData, setFormData] = useState({
     username: '',
     email: '',
+    first_name: '',
+    last_name: '',
     password1: '',
     password2: '',
   });
@@ -53,6 +55,20 @@ const RegisterPage = () => {
           type="email"
           name="email"
           value={formData.email}
+          onChange={handleChange}
+        />
+        <FormInput
+          label="First Name"
+          type="text"
+          name="first_name"
+          value={formData.first_name}
+          onChange={handleChange}
+        />
+        <FormInput
+          label="Last Name"
+          type="text"
+          name="last_name"
+          value={formData.last_name}
           onChange={handleChange}
         />
         <FormInput
